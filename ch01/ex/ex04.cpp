@@ -5,9 +5,9 @@
 
 int main()
 {
-     std::cout << "Hello Buggy World \n";
+      std::cout << "Hello Buggy World \n";
 
-     return 0;
+      return 0;
 }
 
 // Hello Buggy World
