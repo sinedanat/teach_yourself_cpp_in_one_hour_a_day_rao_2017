@@ -32,4 +32,5 @@ int main()
 
 // Is it sunny (y/n)? 2
 // Boolean flag sunny says:
+//
 // Runtime Error!

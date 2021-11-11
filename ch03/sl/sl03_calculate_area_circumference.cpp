@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
@@ -9,8 +10,8 @@ int main()
     double Radius = 0;
     cin >> Radius;
 
-    cout << "Area = " << Pi* Radius* Radius << endl;
-    cout << "Circumference = " << 2 * Pi* Radius << endl;
+    cout << "Area = " << (Pi * Radius * Radius) << endl;
+    cout << "Circumference = " << (2 * Pi * Radius) << endl;
 
     return 0;
 }
