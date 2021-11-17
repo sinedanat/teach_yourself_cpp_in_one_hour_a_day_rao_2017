@@ -10,7 +10,9 @@ void DisplayContents(const T& container)
     for (auto iElement = container.cbegin();
             iElement != container.cend();
             ++iElement)
+    {
         cout << *iElement << endl;
+    }
 
     cout << endl;
 }

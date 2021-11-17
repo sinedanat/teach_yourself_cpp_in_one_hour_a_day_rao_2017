@@ -11,7 +11,9 @@ void DisplayContents(const T& cont)
     for (auto element = cont.cbegin();
             element != cont.cend();
             ++ element)
+    {
         cout << *element << ' ';
+    }
 
     cout << endl;
 
@@ -47,12 +49,12 @@ int main()
 // Bucket count = 13
 // Max load factor = 1
 // Load factor: 0.615385
-// 
+//
 // Unordered set contains: 999 9 -300 -1 2017 -3 989 300 1
 // Number of elements, size() = 9
 // Bucket count = 13
 // Max load factor = 1
 // Load factor: 0.692308
-// 
+//
 // Enter int you want to check for existence in set: 989
 // 989 found in set

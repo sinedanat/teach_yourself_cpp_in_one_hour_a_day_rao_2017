@@ -9,7 +9,9 @@ void DisplayContents(const T& Input)
     for (auto element = Input.cbegin();
             element != Input.cend();
             ++ element)
+    {
         cout << *element << ' ';
+    }
 
     cout << endl;
 }
@@ -42,7 +44,7 @@ int main()
 // Enter a number to erase from the set: 78
 // Erasing 2 instances of value 78
 // multiset now contains 3 elements: -1 43 124
-// 
+//
 // multiset contains 5 elements: -1 43 78 78 124
 // Enter a number to erase from the set: 124
 // Erasing 1 instances of value 124

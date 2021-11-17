@@ -7,7 +7,9 @@ template<typename T>
 void DisplayContent(const T& cont)
 {
     for (auto element = cont.cbegin(); element != cont.cend(); ++element)
+    {
         cout << *element << " ";
+    }
 }
 
 int main()
@@ -34,5 +36,5 @@ int main()
     return 0;
 }
 
-// Displaying the contents of the multiset: 5 5 5 
-// Displaying the contents of the set: 5 
+// Displaying the contents of the multiset: 5 5 5
+// Displaying the contents of the set: 5

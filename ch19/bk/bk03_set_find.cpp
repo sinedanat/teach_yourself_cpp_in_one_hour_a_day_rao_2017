@@ -9,7 +9,9 @@ void DisplayContents(const T& container)
     for (auto element = container.cbegin();
             element != container.cend();
             ++element)
+    {
         cout << *element << ' ';
+    }
 
     cout << endl;
 }
@@ -42,6 +44,6 @@ int main()
     return 0;
 }
 
-// -1 43 78 124 
+// -1 43 78 124
 // Element -1 found!
 // Element 12345 not found in set!

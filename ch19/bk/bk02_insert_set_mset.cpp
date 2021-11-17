@@ -9,7 +9,9 @@ void DisplayContents(const T& container)
     for (auto element = container.cbegin();
             element != container.cend();
             ++element)
+    {
         cout << *element << ' ';
+    }
 
     cout << endl;
 }
@@ -36,8 +38,8 @@ int main()
     return 0;
 }
 
-// Contents of the set: 
-// -999 -1 151 202 
-// Contents of the multiset: 
-// -999 -1 -1 151 202 
+// Contents of the set:
+// -999 -1 151 202
+// Contents of the multiset:
+// -999 -1 -1 151 202
 // Number of instances of '-1' in the multiset are: '2'

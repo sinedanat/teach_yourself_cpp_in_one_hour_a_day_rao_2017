@@ -10,7 +10,9 @@ void DisplayContents(const T& Input)
     for (auto element = Input.cbegin();
             element != Input.cend();
             ++ element)
+    {
         cout << *element << endl;
+    }
 
     cout << endl;
 }
@@ -41,7 +43,7 @@ struct ContactItem
     }
 
     // Used in DisplayContents via cout.
-    operator const char*() const
+    operator const char* () const
     {
         return displayAs.c_str();
     }

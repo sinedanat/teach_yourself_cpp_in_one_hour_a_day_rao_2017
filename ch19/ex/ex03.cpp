@@ -13,7 +13,9 @@ void DisplayContents(const T& container)
     for (auto element = container.cbegin();
             element != container.cend();
             ++element)
+    {
         cout << *element << ' ';
+    }
 
     cout << endl;
 }
@@ -31,7 +33,7 @@ int main()
     return 0;
 }
 
-// Contents of the set: 
-// 1 2 3 
-// Contents of the multiset: 
-// 1 2 2 3 3 3 
+// Contents of the set:
+// 1 2 3
+// Contents of the multiset:
+// 1 2 2 3 3 3
