@@ -31,7 +31,7 @@ int main()
 
         listInts.push_back(num);
 
-        std::cout << "Would you like to enter one more jar (y/n): ";
+        std::cout << "Would you like to enter one more int (y/n): ";
         std::cin >> ch;
     }
     while (ch != 'n');
@@ -43,12 +43,12 @@ int main()
 }
 
 // Enter an int: 1
-// Would you like to enter one more jar (y/n): y
+// Would you like to enter one more int (y/n): y
 // Enter an int: 11
-// Would you like to enter one more jar (y/n): y
+// Would you like to enter one more int (y/n): y
 // Enter an int: 111
-// Would you like to enter one more jar (y/n): y
+// Would you like to enter one more int (y/n): y
 // Enter an int: 1111
-// Would you like to enter one more jar (y/n): n
+// Would you like to enter one more int (y/n): n
 // You entered:
 // 1 11 111 1111
