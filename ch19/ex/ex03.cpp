@@ -5,8 +5,6 @@
 #include <iostream>
 #include <set>
 
-using namespace std;
-
 template<typename T>
 void DisplayContents(const T& container)
 {
@@ -14,20 +12,20 @@ void DisplayContents(const T& container)
             element != container.cend();
             ++element)
     {
-        cout << *element << ' ';
+        std::cout << *element << ' ';
     }
 
-    cout << endl;
+    std::cout << std::endl;
 }
 
 int main()
 {
-    set<int> setInts{1, 2, 2, 3, 3, 3};
-    cout << "Contents of the set: " << endl;
+    std::set<int> setInts{1, 2, 2, 3, 3, 3};
+    std::cout << "Contents of the set: " << std::endl;
     DisplayContents(setInts);
 
-    multiset<int> msetInts{1, 2, 2, 3, 3, 3};
-    cout << "Contents of the multiset: " << endl;
+    std::multiset<int> msetInts{1, 2, 2, 3, 3, 3};
+    std::cout << "Contents of the multiset: " << std::endl;
     DisplayContents(msetInts);
 
     return 0;
