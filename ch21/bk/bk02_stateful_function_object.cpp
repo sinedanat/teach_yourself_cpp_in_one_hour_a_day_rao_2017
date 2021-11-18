@@ -26,8 +26,8 @@ int main()
 
     DisplayElementKeepCount<int> result;
     
-    result = for_each(numsInVec.begin(),
-                      numsInVec.end(),
+    result = for_each(numsInVec.cbegin(),
+                      numsInVec.cend(),
                       DisplayElementKeepCount<int>());
 
     cout << endl;

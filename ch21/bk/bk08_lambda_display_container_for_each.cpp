@@ -22,8 +22,8 @@ int main()
     cout << "Displaying the vector of integers: " << endl;
 
     // Display the array of integers.
-    for_each(vecIntegers.begin(),  // Start of range.
-             vecIntegers.end(),    // End of range.
+    for_each(vecIntegers.cbegin(),  // Start of range.
+             vecIntegers.cend(),    // End of range.
              [](int Num)
     {
         cout << Num << ' ';
@@ -34,8 +34,8 @@ int main()
     cout << "Displaying the list of characters: " << endl;
 
     // Display the list of characters.
-    for_each(listChars.begin(),    // Start of range.
-             listChars.end(),      // End of range.
+    for_each(listChars.cbegin(),    // Start of range.
+             listChars.cend(),      // End of range.
              [](int Num)
     {
         cout << Num << ' ';

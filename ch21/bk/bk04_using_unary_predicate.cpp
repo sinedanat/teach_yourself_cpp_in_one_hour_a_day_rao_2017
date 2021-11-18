@@ -32,8 +32,8 @@ int main()
     cin >> divisor;
 
     // Find the first element that is a multiple of divisor in the collection.
-    auto element = find_if(numsInVec.begin(),
-                           numsInVec.end(),
+    auto element = find_if(numsInVec.cbegin(),
+                           numsInVec.cend(),
                            IsMultiple<int>(divisor));
 
     if (element != numsInVec.end())
