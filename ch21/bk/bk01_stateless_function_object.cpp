@@ -29,7 +29,7 @@ int main()
 
     for_each(numsInVec.cbegin(),       // Start of range.
              numsInVec.cend(),         // End of range.
-             DisplayElement<int>());  // Unary function object.
+             DisplayElement<int>());   // Unary function object.
 
     cout << endl;
 
