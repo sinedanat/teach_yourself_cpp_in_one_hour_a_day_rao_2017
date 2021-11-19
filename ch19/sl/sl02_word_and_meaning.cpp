@@ -12,12 +12,12 @@ struct PAIR_WORD_MEANING
     PAIR_WORD_MEANING(const string& sWord, const string& sMeaning)
         : word(sWord), meaning(sMeaning) {}
 
-    bool operator< (const PAIR_WORD_MEANING& pairAnotherWord) const
+    bool operator<(const PAIR_WORD_MEANING& pairAnotherWord) const
     {
         return (word < pairAnotherWord.word);
     }
 
-    bool operator== (const string& key)
+    bool operator==(const string& key)
     {
         return (key == this->word);
     }
