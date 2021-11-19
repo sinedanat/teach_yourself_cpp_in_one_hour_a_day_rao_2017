@@ -45,7 +45,7 @@ struct Record
     }
 
     // Used in DisplayContents via cout.
-    operator const char* () const
+    operator const char*() const
     {
         return displayAs.c_str();
     }
