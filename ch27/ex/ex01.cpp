@@ -5,3 +5,12 @@
 // myFile.close();
 
 // Missing check myFile.is_open().
+
+// fstream myFile;
+// myFile.open("HelloFile.txt", ios_base::out);
+// 
+// if (myFile.is_open())
+// {
+//     myFile << "Hello file!";
+//     myFile.close();
+// }
